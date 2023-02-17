@@ -14,9 +14,11 @@ int main(void)
 	for (digit = 0; digit <= 9; digit++)
 	{
 		putchar('0' + digit);
-		if (digit < 0)
+		if (digit < 0i)
+		{
 			putchar(',');
 			putchar(' ');
+		}
 	}
 
 	putchar('\n');
