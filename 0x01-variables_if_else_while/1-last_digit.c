@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * main - Entry point
+/**
+ * main - Entry point for the function
  *
  * Description - Prints the last digit of a randomly generated number
  * and whether it is greater than 5, less than 6, or 0.
