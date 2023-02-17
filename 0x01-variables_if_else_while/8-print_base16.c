@@ -16,7 +16,7 @@ int main(void)
 		putchar('0' + digit);
 
 	for (character = 'a'; character <= 'f'; character++)
-		putchat(character);
+		putchar(character);
 
 	putchar('\n');
 
