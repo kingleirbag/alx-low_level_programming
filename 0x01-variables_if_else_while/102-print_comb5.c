@@ -6,7 +6,7 @@
  * Description - Print all number from 0 to 99
  *
  * Return: Always 0 (Success)
- * */
+ */
 int main(void)
 {
 	int firstDigits;
