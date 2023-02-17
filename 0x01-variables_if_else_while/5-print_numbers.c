@@ -5,7 +5,7 @@
  *
  * Description - Print all digits to base 10
  *
- * Return - Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
