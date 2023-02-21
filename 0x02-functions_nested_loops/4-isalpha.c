@@ -12,23 +12,23 @@
  */
 int _isalpha(int c)
 {
-        int i;
-
-        for (i = 'a'; i <= 'z'; i++)
-        {
-                /* Check for int c*/
-                if (c == i)
-                {
-                        return (1);
-                }
-        }
+	int i;
+	
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		/* Check for int c*/
+		if (c == i)
+		{
+			return (1);
+		}
+	}
 	for (i = 'A'; i <= 'Z'; i++)
-        {
-                /* Check for int c*/
-                if (c == i)
-                {
-                        return (1);
-                }
-        }
-        return (0);
+	{
+		/* Check for int c*/
+		if (c == i)
+		{
+			return (1);
+		}
+	}
+	return (0);
 }
