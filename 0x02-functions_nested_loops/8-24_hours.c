@@ -12,7 +12,7 @@ void jack_bauer(void)
 	int totalMinutes = 0;
 	int hourTens = 0, hourOnes = 0, minuteTens = 0, minuteOnes = 0;
 
-	while (x < 1440)
+	while (totalMinutes < 1440)
 	{
 		_putchar(hourTens + '0');
 		_putchar(hourOnes + '0');
