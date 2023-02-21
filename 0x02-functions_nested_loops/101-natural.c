@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: Prints natural numbers below 1024 
+ * Description: Prints natural numbers below 1024
  * that are multiplies of 3 or 5
  *
  * Return: Always 0.
