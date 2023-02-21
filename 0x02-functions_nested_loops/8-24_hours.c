@@ -1,6 +1,6 @@
 #include "main.h"
 
-/**i
+/**
  * jack_bauer - Entry point
  *
  * Description: prints every minute of the day
@@ -22,7 +22,7 @@ void jack_bauer(void)
 		_putchar('\n');
 
 		minuteOnes++;
-		if (minuteOnes > 0)
+		if (minuteOnes > 9)
 		{
 			minuteOnes = 0;
 			minuteTens++;
