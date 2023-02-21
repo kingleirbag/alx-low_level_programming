@@ -8,7 +8,6 @@
  * Descripion: Checks if a character is lower case or upper case
  *
  * Return: 1 if true else 0 if false
- *
  */
 int _isalpha(int c)
 {
