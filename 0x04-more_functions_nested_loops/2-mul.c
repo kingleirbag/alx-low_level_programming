@@ -5,7 +5,7 @@
  * @a: first variable
  * @b: second variable
  * 
- * Returns: product of a and b (a * b)
+ * Return: product of a and b (a * b)
  */
 int mul(int a, int b)
 {
