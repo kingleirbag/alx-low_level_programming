@@ -2,7 +2,7 @@
 
 /**
  * rev_string -  a function that reverses a string.
- * @s - string value
+ * @s: string value
  * Return: void
  */
 void rev_string(char *s)
@@ -17,6 +17,6 @@ void rev_string(char *s)
 	{
 		tmp = s[index];
 		s[index] = s[len - index - 1];
-		s[len - index - 1] = tmp;
+
 	}
 }
