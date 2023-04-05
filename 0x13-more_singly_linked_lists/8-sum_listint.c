@@ -7,12 +7,9 @@
  */
 int sum_listint(listint_t *head)
 {
-	int sum = 0;
-	listint_t *node = head;
-	while (node != NULL)
-	{
-		sum += node->n;
-		node = node->next
-	}
+	int sum;
+	
+	for (sum = 0; head; sum += head->n, head = head->next)
+		;
 	return (sum);
 }
