@@ -65,7 +65,7 @@ int main(int argc, char *argv[])
 			free(buffer);
 			exit(98);
 		}
-		write_file = write(destination, buffer, read_file)
+		write_file = write(destination, buffer, read_file);
 		if (destination == -1 || write_file == -1)
 		{
 			dprintf(STDERR_FILENO,
@@ -73,7 +73,7 @@ int main(int argc, char *argv[])
 			free(buffer);
 			exit(99);
 		}
-		read_file == read(origin, buffer, 1024);
+		read_file = read(origin, buffer, 1024);
 		destination = open(argv[2], O_WRONLY | O_APPEND);
 	} while (read_file > 0);
 	free(buffer);
