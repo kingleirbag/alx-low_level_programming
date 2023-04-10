@@ -1,5 +1,7 @@
 #include "main.h"
+#include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
 
 /**
  * ssize_t read_textfile - a function that reads a text file
